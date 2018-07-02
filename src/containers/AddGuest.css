@@ -1,0 +1,25 @@
+.AddGuest {
+  padding: 1em;
+}
+
+.Control {
+  padding: 0.5em;
+  color: #2b4570;
+  border: 1px solid #7180ac;
+  background: #fff;
+}
+
+.Control::placeholder {
+  color: #7180ac;
+}
+
+.Control + .Control {
+  margin-left: 0.5em;
+}
+
+.SubmitButton {
+  color: #fff;
+  background: #E49273;
+  border: 1px solid #A37A74;
+  margin-left: 1em;
+}

@@ -1,0 +1,30 @@
+.Guest {
+  padding: 1em;
+  display: flex;
+  align-items: baseline;
+}
+
+.Control {
+  padding: 0.5em;
+  color: #2b4570;
+  border: 1px solid #7180ac;
+  background: #fff;
+}
+
+.Control + .Control {
+  margin-left: 0.5em;
+}
+
+.Controls {
+  margin-left: .5em;
+}
+
+.Button {
+  color: #fff;
+  background: #2B4570;
+  border: 1px solid #2B4570;
+}
+
+.Button + .Button {
+  margin-left: 0.5em;
+}
